@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Public</title>
+  <%= stylesheet_link_tag    "public/application", :media => "all" %>
+  <%= javascript_include_tag "public/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
