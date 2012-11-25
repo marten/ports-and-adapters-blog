@@ -1,3 +1,3 @@
 Website::Application.routes.draw do
-  mount Public::Engine => '/public'
+  mount Public::Engine => '/'
 end
