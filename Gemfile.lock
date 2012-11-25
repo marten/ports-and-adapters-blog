@@ -79,6 +79,17 @@ GIT
       sass (>= 3.1.10)
       tilt (~> 1.3)
 
+PATH
+  remote: engines/public
+  specs:
+    public (0.0.1)
+      rails (~> 3.2.9)
+
+PATH
+  remote: gems/website
+  specs:
+    website (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -139,6 +150,8 @@ DEPENDENCIES
   journey!
   jquery-rails
   mysql2
+  public!
   rails!
   sass-rails!
   uglifier (>= 1.0.3)
+  website!

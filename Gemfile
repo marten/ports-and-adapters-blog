@@ -6,6 +6,8 @@ gem 'arel',      :git => 'git://github.com/rails/arel.git', :branch => '3-0-stab
 
 gem 'mysql2'
 
+gem 'website', :path => "gems/website"
+gem 'public',  :path => "engines/public"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,17 +23,3 @@ end
 
 gem 'jquery-rails'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
